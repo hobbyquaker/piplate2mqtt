@@ -1,0 +1,38 @@
+{
+  "name": "piplate2mqtt",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Connect Adafruit 16x2 LCD RGB Pi Plate to MQTT",
+  "main": "index.js",
+  "preferGlobal": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hobbyquaker/xyz2mqtt"
+  },
+  "keywords": [
+    "mqtt",
+    "smarthome",
+    "adafruit",
+    "lcd",
+    "i2c",
+    "pi",
+    "raspberry",
+    "rgb",
+    "plate"
+  ],
+  "author": "Sebastian Raff <hq@ccu.io> (https://hobbyquaker.github.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hobbyquaker/xyz2mqtt/issues"
+  },
+  "homepage": "https://github.com/hobbyquaker/xyz2mqtt",
+  "dependencies": {
+    "mqtt": "^2.1.3",
+    "yalm": "^4.0.2",
+    "yargs": "^6.4.0",
+    "adafruit-i2c-lcd": "^1.0.2"
+  }
+}
